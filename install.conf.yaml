@@ -1,17 +1,18 @@
 - defaults:
-  link:
-    create: true
-    relink: true
+    link:
+        create: true
+        relink: true
 - clean: ['~']
 - link:
-  ~/.vimrc:
-  ~/.zshrc:
-  ~/.zprofile:
-  ~/.git_config:
-  ~/.config/fish/config.fish:
-  ~/.config/git/ignore:
-  ~/Brewfile:
-  ~/.iterm2_shell_integration.fish:
+    ~/.vimrc:
+    ~/.zshrc:
+    ~/.zprofile:
+    ~/.gitconfig:
+    ~/.config/fish/config.fish:
+    ~/.config/git/ignore:
+    ~/Brewfile:
+    ~/.iterm2_shell_integration.fish:
 - shell:
-  - [git submodule update --init --recursive, Installing submodules]
+    - [git submodule update --init --recursive, Installing submodules]
+    - [brew bundle]
   
