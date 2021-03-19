@@ -11,6 +11,7 @@
   ~/.config/fish/config.fish:
   ~/.config/git/ignore:
   ~/Brewfile:
+  ~/.iterm2_shell_integration.fish:
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   
