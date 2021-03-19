@@ -1,0 +1,16 @@
+- defaults:
+  link:
+    create: true
+    relink: true
+- clean: ['~']
+- link:
+  ~/.vimrc:
+  ~/.zshrc:
+  ~/.zprofile:
+  ~/.git_config:
+  ~/.config/fish/config.fish:
+  ~/.config/git/ignore:
+  ~/Brewfile:
+- shell:
+  - [git submodule update --init --recursive, Installing submodules]
+  
