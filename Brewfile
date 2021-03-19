@@ -44,3 +44,4 @@ cask "tableplus", args: { appdir: "/Applications" }
 cask "timer", args: { appdir: "/Applications" }
 cask "typora", args: { appdir: "/Applications" }
 cask "visual-studio-code", args: { appdir: "/Applications" }
+cask "krisp", args: { appdir: "/Applications" }
