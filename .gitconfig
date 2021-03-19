@@ -1,0 +1,19 @@
+[user]
+    name  = saxtondrey
+    email = 4phantomron@gmail.com
+[core]
+    quotepath = false
+    pager = less -R -F -X
+[color]
+    ui = true
+[alias]
+    st = status
+    co = checkout
+    cm = commit -m
+    pop = stash pop stash@{0}
+    difff = diff --word-diff
+    b = branch
+    pst = pull upstream staging
+    fp = push origin (git symbolic-ref --short HEAD)
+[pull]
+	rebase = false
